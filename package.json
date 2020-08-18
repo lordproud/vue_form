@@ -2,9 +2,9 @@
   "name": "vue_form",
   "version": "0.1.0",  
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "deploy": "gh-pages -d dist"
+    "serve": "vue-cli-service serve",    
+    "build": "vue-cli-service build --mode=development",
+    "deploy": "yarn build && gh-pages -d ./dist"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -19,7 +19,7 @@
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11"
   },
-  "homepage": "https://lordproud.github.io/vue_form/index.html",
+  "homepage": "https://lordproud.github.io/vue_form",
   "browserslist": [
     "> 1%",
     "last 2 versions",
