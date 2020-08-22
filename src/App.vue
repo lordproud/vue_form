@@ -1,18 +1,17 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Form />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Form from './Form';
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
+    Form
   }
-}
+};
 </script>
 
 <style lang="scss">
